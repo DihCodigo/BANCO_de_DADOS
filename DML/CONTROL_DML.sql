@@ -1,29 +1,21 @@
 -- INSERIR DADOS
-INSERT INTO USUARIOS (ID, USUARIO_NOME, USUARIO_EMAIL, SENHA, IS_ADMIN)
+INSERT INTO AUTORES (ID, AUTOR, EMAIL, IDADE)
 VALUES 
-(null, 'Homem de Ferro', 'tony@powercontrol.com.br', '123a', 1),
-(null, 'Viuva Negra', 'vnegra@powercontrol.com.br','123a', 0),
-(null, 'Thor', 'thor@powercontrol.com.br', '123a', 0);
+(null, 'Robert Downey Jr', 'robertjr@powercontrol.com.br', '35'),
+(null, 'Natasha Romanova', 'nathromanova@powercontrol.com.br','23'),
+(null, 'Chris Hemsworth', 'chrish@powercontrol.com.br', '29');
 
-INSERT INTO ALUNOS (ID,ALUNO_NOME,ALUNO_RA)
+INSERT INTO CATEGORIAS (ID,CATEGORIA,DESCRICAO)
 VALUES
-(null, 'Super Man', '1222114'),
-(null, 'Mulher Maravilha', '2225442'),
-(null, 'Batman', '9925132');
+(null, 'Ação', 'Um homem se veste com uma armadura de ferro para enfrentar o mal.'),
+(null, 'Assassinato', 'Uma mulher é separada da familia e treinada como assassina para cumprir assassinatos de alto nivel'),
+(null, 'Magia', 'Deus grego com poderes do trovão, e solta muitos raios');
 
-INSERT INTO DISCIPLINAS (ID,DISCIPLINA_NOME,USUARIO_ID,ALUNO_ID)
-VALUES
-(null, 'Matematica', '1', '1'),
-(null, 'Portugues', '1', '2'),
-(null, 'Ciencias', '2', '3'),
-(null, 'Geografia', '3', '3');
 
-INSERT INTO ESCOLAS (ID,INSTITUICAO,ESTADO,USUARIO_ID,ALUNO_ID,DISCIPLINA_ID)
+INSERT INTO LIVROS (ID,TITULO, DATA_LANCAMENTO, AUTOR_ID, CATEGORIA_ID)
 VALUES
-(null, 'EE Martins de Costa', 'SP', '1', '1', '1'),
-(null, 'EE Martins de Costa', 'SP', '1', '1', '2'),
-(null, 'EE Martins de Costa', 'SP', '1', '2', '1'),
-(null, 'EE Martins de Costa', 'SP', '1', '2', '2'),
-(null, 'EE Maria Donizete By', 'RJ', '2', '3', '3'),
-(null, 'EE Roberto Guimalhães', 'RJ', '3', '3', '4');
+(null, 'O Homem de ferro', '2010', '1', '1'),
+(null, 'Viuva Negra', '2014', '2', '2'),
+(null, 'Thor O Deus do Trovão', '2012', '3', '3');
+
 
