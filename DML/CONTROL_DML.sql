@@ -14,8 +14,9 @@ VALUES
 
 INSERT INTO LIVROS (ID,TITULO, DATA_LANCAMENTO, AUTOR_ID, CATEGORIA_ID)
 VALUES
-(null, 'O Homem de ferro', '2010', '1', '1'),
-(null, 'Viuva Negra', '2014', '2', '2'),
-(null, 'Thor O Deus do Trovão', '2012', '3', '3');
+(null, 'O Homem de ferro', '2010-11-29', '1', '1'),
+(null, 'Viuva Negra', '2014-12-21', '2', '2'),
+(null, 'Thor O Deus do Trovão', '2012-02-15', '3', '3'),
+(null, 'Thor O Deus do Trovão', '2012-02-15', '3', '3');
 
 
